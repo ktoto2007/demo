@@ -5,7 +5,7 @@
 
 .nav {
     height: 100vh;
-    width: 350px;
+    width: 450px;
     background-color: #313131;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@
 
 .chat-contanier {
     height: 100vh;
-    width: calc(100vw - 350px);
+    width: calc(100vw - 450px);
     background-color: #1e1e1e;
 }
 
@@ -21,6 +21,7 @@
     height: 65px;
     background-color: #5B46D5;
     display: flex;
+    align-items: center;
 }
 
 .contanier {
@@ -35,16 +36,30 @@
 }
 
 .search {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     height: 40px;
     background-color: white;
     width: 300px;
     border-radius: 20px;
+    padding-left: 10px;
+}
+
+.search img {
+    height: 35px;
+    width: 35px;
+}
+
+.search p {
+    font-size: 22px;
 }
 
 .chat-nav {
     display: flex;
     height: 65px;
     align-items: center;
+    border-top: #454545 solid 3px;
 }
 
 img {
@@ -58,7 +73,7 @@ img {
     align-items: center;
     position: relative;
     bottom: 90px;
-    width: calc(100vw - 350px);
+    width: calc(100vw - 450px);
 }
 
 .user-input-field {
@@ -72,8 +87,8 @@ img {
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
 }
 
