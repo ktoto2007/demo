@@ -51,6 +51,11 @@
     align-items: center;
 }
 
+.dialogsWrapper {
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
 .search {
     display: flex;
     align-items: center;
@@ -134,17 +139,17 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-bottom: 30px;
+    padding: 0 50px 30px;
 }
 
 .message {
     font-size: 20px;
+    word-wrap: break-word;
     background-color: white;
     border-radius: 20px;
     width: fit-content;
     max-width: 400px;
     padding: 7px;
-    margin-left: 40px;
     border-bottom-left-radius: 1px;
 }
 
@@ -157,6 +162,5 @@ img {
     width: fit-content;
     padding: 7px;
     align-self: flex-end;
-    margin-right: 40px;
     border-bottom-right-radius: 1px;
 }
