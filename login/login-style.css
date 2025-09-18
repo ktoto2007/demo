@@ -5,7 +5,7 @@
 }
 
 .contanier {
-    background-color: #1e1e1e;
+    background-color: #1E1E1E;
     height: 100vh;
     display: flex;
     gap: 39px;
@@ -24,24 +24,25 @@
     width: 500px;
     height: 70px;
     border-radius: 40px;
-    padding-left: 30px;
-}
-
-.box::placeholder {
-    font-size: 32px;
+    border-width: 0;
 }
 
 .input {
     font-size: 32px;
+    text-align: center;
 }
 
-.button {
+.password {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.login-button {
     color: #ffffff;
-    display: flex;
-    align-items: center;
     background-color: #5B46D5;
     font-size: 40px;
     text-align: center;
+    padding-top: 14px;
 }
 
 .forgot-password {
